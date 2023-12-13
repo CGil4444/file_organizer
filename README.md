@@ -9,9 +9,18 @@ Customizable Categories: You can easily customize the supported file categories 
 Fallback "Other" Folder: Any files that do not match the specified extensions will be moved to an "Other" folder.
 
 # Usage
-Run the program and provide it with the absolute path of your desired directory to organize:<br>
-example: C:\Users\myuser\Downloads
+Python3 must be installed! 
+Run the program (through either your favorite IDE or your OS Terminal) and provide it with the absolute path of your desired directory to organize:<br>
+Example:
+Windows CMD:
+-Go to wherever you downloaded the thing to
+> E:       (had it on a drive other than C:)
+> cd E:\Programs\Downloads
+> python file_organizer.py
+> Enter an absolute path to organize: C:\Users\myuser\Downloads
+> Finished Organizing!
 
+idk i dont use macos or linux but hopefully it's something like that
 # Supported File categories/extensions:
 This program supports the most common file extensions, such as:
 
