@@ -11,14 +11,14 @@ Fallback "Other" Folder: Any files that do not match the specified extensions wi
 # Usage
 Python3 must be installed! 
 Run the program (through either your favorite IDE or your OS Terminal) and provide it with the absolute path of your desired directory to organize:<br>
-Example:
-Windows CMD:
--Go to wherever you downloaded the thing to
-> E:       (had it on a drive other than C:)
-> cd E:\Programs\Downloads
-> python file_organizer.py
-> Enter an absolute path to organize: C:\Users\myuser\Downloads
-> Finished Organizing!
+Example:<br>
+Windows CMD:<br>
+Go to wherever you downloaded the thing with cmd<br>
+\>E:       (had it on a drive other than C:)<br>
+\>cd E:\Programs\Downloads<br>
+\>python file_organizer.py<br>
+\>"Enter an absolute path to organize:" C:\Users\myuser\Downloads<br>
+\>"Finished Organizing!"<br>
 
 idk i dont use macos or linux but hopefully it's something like that
 # Supported File categories/extensions:
