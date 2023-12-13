@@ -1,6 +1,6 @@
 import os
 import shutil
-
+import sys
 def organize_files(path):
     #For sorting based on file extensions
     categories = {
@@ -24,16 +24,17 @@ def organize_files(path):
             source = os.path.join(path,filename)
             if extension in categories.get(category):
                 destination = os.path.join(path,category,filename)
+                print(f"Moving {source} to {destination}")
                 shutil.move(source,destination)
-            #else: this is still a WIP bc it doesnt work properly lol
-                #destination = os.path.join(path,"Other",filename)
-                #shutil.move(source,destination)
+            elif os.path.exists(source) and os.path.isfile(source):
+                destination = os.path.join(path,"Other",filename)
+                shutil.move(source,destination)
 
 
     return True
 
 path = input()
 if os.path.exists(path) != True:
-    print("Could not find path '{path}'")
+    print(f"Could not find path '{path}'",file=sys.stderr)
     exit(1)
 organize_files(path)
