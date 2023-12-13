@@ -25,3 +25,14 @@ Code: .exe, .java, .py, .cpp, .dll, and many more!<br>
 I originally made this for myself because my Downloads folder was an absolute hell to navigate, and I did not want to spend HOURS organizing files.<br>
 Then I remembered I study computer science so...<br>
 Anyway, feel free to customize this script to fit your needs, and I hope it helps you have a clutter-free workspace!<br>
+
+# Results
+Before:
+
+<img src="https://github.com/CGil4444/file_organizer/blob/main/downloads_unorganized.png" width="500" />
+
+After:
+<p float="left">
+  <img src="https://github.com/CGil4444/file_organizer/blob/main/downloads_organized_examples.png" width="500" />
+  <img src="https://github.com/CGil4444/file_organizer/blob/main/downloads_organized.png" width="500" />
+</p>
